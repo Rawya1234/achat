@@ -38,7 +38,7 @@ public class FactureServiceImpl implements IFactureService {
 		return factures;
 	}
 
-	
+// Modif Numero 1	
 	public Facture addFacture(Facture f) {
 		return factureRepository.save(f);
 	}
